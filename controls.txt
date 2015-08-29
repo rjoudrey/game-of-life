@@ -1,0 +1,9 @@
+Controls:
+Press the spacebar to pause, and the 'g' key to show/hide the grid.
+
+On the bottom control bar, from left to right:
+
+Increase speed, Decrease speed, Save grid, Load grid, Clear grid, Set brush size to 1, Set brush size to 9.
+
+Other:
+You can set the window and tile size in the config.txt file.

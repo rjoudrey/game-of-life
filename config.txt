@@ -1,0 +1,3 @@
+Screen_W: 800
+Screen_H: 600
+Tile_size: 12

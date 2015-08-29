@@ -1,0 +1,18 @@
+Built using Microsoft Visual Studio 2010
+
+Debug:
+C/C++ -> Code Generation -> Runtime Library = Multi-threaded Debug DLL (/MDd)
+Linker -> System -> SubSystem = Console (/SUBSYSTEM:CONSOLE)
+
+Release:
+C/C++ -> Code Generation -> Runtime Library = Multi-threaded DLL (/MD)
+Linker -> System -> SubSystem = Windows (/SUBSYSTEM:WINDOWS)
+
+
+Both:
+VC++ Directories -> Include Directories = add the "SDL include & lib\include" folder.
+VC++ Directories -> Library Directories = add the "SDL include & lib\lib" folder.
+Linker -> Input -> Additional Dependencies = "SDLmain.lib;SDL_ttf.lib;SDL.lib;"
+
+
+(VC++ Directories are in the options menu in VC++ 2008 instead of the project settings).
